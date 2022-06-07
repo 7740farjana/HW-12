@@ -1,0 +1,290 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.navbar-light .navbar-brand {
+	color:  hsl(332, 78%, 51%);
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-right:10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color:  hsl(332, 78%, 51%);
+  }
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: hsl(332, 78%, 51%);
+    font-size:18px;
+    font-family: 'Roboto';
+    
+  }
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: hsl(332, 78%, 51%);
+    border-color: #198754;
+  }
+  /*banner part css start*/
+  #banner-part{
+    background: url(image/pic11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+   
+
+
+}
+#banner-part::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:  rgb(143, 32, 59);
+    opacity:-1;
+}
+.banner-text{
+    position: relative;
+    z-index: 99;
+    padding-top: 228px;
+    padding-bottom: 205px;
+
+
+}
+.banner-text h2{
+    font-size: 32px;
+    font-family: 'playfair Display', serif;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+}
+
+.banner-text h2::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: hsl(332, 78%, 51%); 
+    left: 50%;
+    top: 60px;
+    transform: translate(-50%);
+
+}
+
+.banner-text p{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 55px 115px 55px 115px;
+
+}
+.banner-text a{
+    border: 1px solid hsl(332, 78%, 51%);
+    padding: 15px 30px;
+    color:hsl(332, 78%, 51%);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.navbar{
+    width: 100%;
+    z-index: 100;
+}
+/*-------banner slick css start-------*/
+.banner-slider{
+    z-index: 99;
+    position: relative;
+}
+.slick-dots{
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slick-dots li{
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.slick-dots li button{
+    color: transparent;
+    width: 15px;
+    height: 15px;
+    line-height: 17px;
+    border-radius: 50%;
+    border: none;
+    background:hsl(332, 78%, 51%); ;
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+.slick-dots li.slick-active button{
+    opacity: 1;
+}
+
+/*banner part css end*/
+
+
+/*about  part start*/
+#about-part{
+    padding:70px;
+    background-color: bisque;
+}
+.about-text h2{
+    color: black;
+    font-family:'playfair Display', serif;
+    font-size: bold;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin-bottom: 0 !important;
+}
+.about-text p{
+    color: black;
+    font-family:'playfair Display', serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    margin-bottom: 0 !important;
+    
+}
+.about-text a{
+    border: 1px solid #802539;
+    padding: 15px 30px;
+    color:hsl(332, 78%, 51%);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.about-img{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+/*about  part end*/
+/*team part css start*/
+#team-part{
+    background: url(img/team_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0;
+}
+#team-part::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:  rgb(48, 42, 43);
+    
+}
+
+
+.team-top-text{
+    z-index: 100;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.team-top-text h3{
+  font-size: 22px;  
+  font-family:'playfair Display',;
+  font-weight: 700;
+}
+.team-top-text p{
+    font-size: 14px;
+    font-family:'playfair Display', serif;
+}
+
+.team-top-text p::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: hsl(332, 78%, 51%);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+.team-member{
+    position: relative;
+    z-index: 120;
+    text-align: center;
+    color:#fff
+}
+.team-card{
+    background: none;
+    border: 1px solid #fff;
+}
+
+.team-member h5{
+    font-size: 13px;
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+}
+
+.team-member p{
+    font-size: 13px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+}
+.team-text-bottom{
+    position: relative;
+    z-index: 128;
+    text-align: center;
+
+
+}
+.team-text-bottom p{
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.team-text-bottom a{
+    border: 1px solid hsl(332, 98%, 50%);
+    padding: 15px 30px;
+    color:hsl(332, 94%, 51%);
+    text-decoration: none;
+
+}
+.team-slider{
+    z-index:100;
+    position: relative;
+}
+
+.team-slider .slick-dots{
+    bottom: -50px;
+}
+/*team part css end*/
+
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}

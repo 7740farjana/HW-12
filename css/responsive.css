@@ -1,0 +1,241 @@
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background: rgb(43, 42, 42);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+.banner-text{
+    padding-top: 100px;
+}
+
+.banner-text{
+    padding-bottom: 130px;
+}
+.about-text h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about-text p{
+    padding-bottom: 15px;
+}
+.about-text a{
+    width: 100%;
+    text-align: center;
+}
+
+#video-part{
+    padding: 50px 0;
+}
+.service-text{
+    padding-top: 40px;
+}
+.service-text img{
+    padding-bottom: 20px;
+}
+.team-text-bottom a{
+    display: inline-block;
+    width: 100%;
+
+}
+
+.project-bottom a{
+    width: 100%;
+
+}
+
+.arrow-left{
+    display: none !important;
+ 
+}
+.arrow-right{
+    display: none!important;
+    
+}
+
+.contact-left a{
+    width: 100%;
+    text-align: center;
+
+}
+
+.contact-right h3{
+    padding-top: 35px;
+    text-align: center;
+}
+
+.footer-bottom-right p {
+	margin-left: 45px;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-nav {
+    background: rgb(43, 42, 42);
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+.banner-text{
+    padding-top: 100px;
+
+}
+.banner-text{
+    padding-bottom: 130px;
+}
+.about-text h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.about-text p{
+    padding-bottom: 15px;
+}
+.about-text a{
+    width: 100%;
+    text-align: center;
+}
+#video-part{
+    padding: 88px 0;
+}
+.service-text{
+    padding-top: 40px;
+}
+.service-text img{
+    padding-bottom: 20px;
+}
+.team-text-bottom a{
+    display: inline-block;
+    width: 100%;
+}
+.project-bottom a{
+    width: 100%;
+}
+.arrow-left{
+    top: 83%;
+    left: 14%;
+}
+.arrow-right{
+    top: 83%;
+    right:13%;
+}
+.contact-left a{
+    width: 100%;
+    text-align: center;
+}
+.contact-left h3, .contact-right h3{
+    padding-top: 35px;
+    text-align: center;
+}
+.footer-top-middle h4, .footer-top-right h4{
+    margin-left: 50px;
+}
+
+.footer-bottom-right p {
+	margin-left: 45px;
+}
+
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-nav {
+        background: rgb(43, 42, 42);
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
+        background-color: #fff;
+    }
+    .banner-text{
+        padding-top: 130px;
+
+    }
+    .banner-text{
+        padding-bottom: 140px;
+    }
+    .about-text h2{
+        padding-top: 20px;
+        text-align: center;
+
+    }
+    .about-text p{
+        padding-bottom: 10px;
+    }
+    .about-text a{
+        width: 100%;
+        text-align: center;
+
+    }
+    #video-part{
+        padding: 100px 0;
+    }
+    .service-text{
+        padding-top: 20px;
+    }
+    .team-text-button{
+        display: block;
+        width: 100%;
+    }
+    .project-bottom a{
+        width: 100%;
+    }
+    .arrow-left{
+        top: 80%;
+        left: 14%;
+    }
+    .arrow-right{
+        top: 80%;
+        right:13%;
+    }
+    .contact-left a{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3{
+        padding-top: 35px;
+        text-align: center;
+    }
+    .footer-wrap{
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 100px;
+    }
+    .footer-top-middle h4, .footer-top-right h4{
+        margin-right: 181px;
+    }
+    .footer-top-right ul{
+        margin-right: 184px;
+    }
+    .footer-bottom-right p {
+    
+        margin-left: 45px;
+    }
+
+    
+
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
